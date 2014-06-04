@@ -1,0 +1,4 @@
+include README.rst
+include LICENSE.txt
+recursive-include captcha_admin/templates *.html
+recursive-include captcha_admin/tests/templates *.html
