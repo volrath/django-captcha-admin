@@ -25,16 +25,17 @@ Simple way to add a ReCaptcha_ field to your admin login page.
      RECAPTCHA_PUBLIC_KEY = 'your-public-key'
      RECAPTCHA_PRIVATE_KEY = 'your-private-key'
 
-4. Edit your code so instead of `autodiscovering` from
-   ``django.contrib.admin.autodiscover`` you use ``captcha_admin`` and
-   use ``captcha_admin`` urls::
+4. Edit your code so instead of importing ``admin`` from
+   ``django.contrib``, you import it from ``captcha_admin``::
 
-     import captcha_admin
-     captcha_admin.autodiscover()
+     from captcha_admin import admin
+
+     # This should stay the same
+     admin.autodiscover()
 
      urlpatterns = patterns(
          ...
-         url(r'^admin/', include(captcha_admin.site.urls)),
+         url(r'^admin/', include(admin.site.urls)),  # and this...
          ...
      )
 
