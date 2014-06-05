@@ -20,7 +20,7 @@ setup(
     install_requires=['django-recaptcha == 1.0'],
     description = 'Provides a recaptcha field in django\'s default admin login page.',
     long_description=long_description,
-    classifiers = ['Development Status :: 4 - Beta',
+    classifiers = ['Development Status :: 5 - Production/Stable',
                    'Environment :: Web Environment',
                    'Framework :: Django',
                    'Intended Audience :: Developers',
