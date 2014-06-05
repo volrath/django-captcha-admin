@@ -1,7 +1,12 @@
 {% extends "admin/base_site.html" %}
 {% load i18n admin_static %}
 
-{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}" />{% endblock %}
+{% block extrastyle %}
+{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}" />
+<style>
+  #container { width: 40em!important }
+</style>
+{% endblock %}
 
 {% block bodyclass %}login{% endblock %}
 
