@@ -30,9 +30,3 @@ def get_version(version=VERSION):
         sub = mapping[version[3]] + str(version[4])
 
     return str(main + sub)
-
-from django.contrib import admin
-from django.contrib.admin import autodiscover
-from .sites import AdminSite
-site = AdminSite()
-admin.site = site
