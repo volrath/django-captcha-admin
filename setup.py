@@ -17,7 +17,7 @@ setup(
         'captcha_admin': ['templates/admin/*']
     },
     data_files=[('', ['LICENSE.txt', 'README.rst'])],
-    install_requires=['django-recaptcha == 1.0'],
+    install_requires=['django-recaptcha == 1.3.0'],
     description = 'Provides a recaptcha field in django\'s default admin login page.',
     long_description=long_description,
     classifiers = ['Development Status :: 5 - Production/Stable',
