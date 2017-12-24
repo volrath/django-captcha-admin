@@ -24,6 +24,8 @@ Simple way to add a ReCaptcha_ field to your admin login page.
 
      RECAPTCHA_PUBLIC_KEY = 'your-public-key'
      RECAPTCHA_PRIVATE_KEY = 'your-private-key'
+     # If I'm not a Robot is required add:
+     NOCAPTCHA = True
 
 4. Edit your code so instead of importing ``admin`` from
    ``django.contrib``, you import it from ``captcha_admin``::
