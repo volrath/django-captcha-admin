@@ -1,4 +1,4 @@
-Not longer supported. I won't be addressing issues, only PRs. Safest bet would be to go with a different package.
+Not longer supported. I won't be addressing issues, only PRs, BUT I also won't be updating the PYPI package, so safest bet would be to go with a different package.
 
 ======================
  Django Captcha Admin
