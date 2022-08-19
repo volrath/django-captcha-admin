@@ -1,3 +1,5 @@
+Not longer supported. I won't be addressing issues, only PRs. Safest bet would be to go with a different package.
+
 ======================
  Django Captcha Admin
 ======================
